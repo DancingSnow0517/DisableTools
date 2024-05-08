@@ -53,6 +53,7 @@ jobs:
           version-type: release
           java: 17
           loaders: forge
+          files: build/libs/${{ steps.properties.outputs.mod_id }}-${{ steps.var.outputs.version }}.jar
 
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
