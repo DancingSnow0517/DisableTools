@@ -1,4 +1,4 @@
-name: CI For ExampleMod
+name: CI For DisableTools
 on:
   push:
     paths:
